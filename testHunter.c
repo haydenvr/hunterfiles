@@ -56,6 +56,18 @@ void testMovesRound1(void){
        printf("Test passed\n");
    }
 
+	{
+       playerMessage messages[7] = {""};
+       printf("Test: Round 1 hunter 3 moves from MA\n");
+       gameState = newHunterView("GGW.... SGA.... HAT.... MMA.... DBO.V.. GGW.... SKL.... HPR....",messages);
+       decideMove( gameState );
+       disposeHunterView( gameState );
+       char * possibleLocations[7] = {"LS","CA","GR","SR","AL","SN","MA"};
+       assert(moveIn(possibleLocations,7));
+       printf("Test passed\n");
+   }
+
+
 }
 
 void testInitialMoves(void){

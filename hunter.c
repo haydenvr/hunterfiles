@@ -30,11 +30,19 @@ void decideMove (HunterView gameState) {
 	} else if (id == PLAYER_VAN_HELSING) {
 		if (round == 0) move = ATHENS;
 		else {
-			
+			srand (time(NULL));
+			int amtLocs; 
+			LocationID *adj = connectedLocations(gameState, &amtLocs, getLocation(gameState,id), id, round, 1, 0, 0);
+			move = adj[rand() % amtLocs];
 		}
 	} else if (id == PLAYER_MINA_HARKER) {
-		//if (round == 0) 
-		move = MADRID;
+		if (round == 0) move = MADRID;
+		else {
+			srand (time(NULL));
+			int amtLocs; 
+			LocationID *adj = connectedLocations(gameState, &amtLocs, getLocation(gameState,id), id, round, 1, 0, 1);
+			move = adj[rand() % amtLocs];
+		}
 	}
  
 	registerBestPlay(locations[move], "I Wanna Stake You Dracula <3" );
