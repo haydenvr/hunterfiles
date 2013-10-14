@@ -8,7 +8,8 @@
 
 
 void decideMove (HunterView gameState) {
-
+	int round = getRound(gameState);
+	PlayerID id = getCurrentPlayer(gameState);
     registerBestPlay("ZU", "I Wanna Stake You Dracula <3" );
  
 }
