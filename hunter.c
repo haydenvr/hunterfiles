@@ -20,7 +20,7 @@ void decideMove (HunterView gameState) {
 	};
 	int round = getRound(gameState), amtLocs;
 	PlayerID id = getCurrentPlayer(gameState);
-    LocationID move;
+    	LocationID move = getLocation(gameState, id);
 	srand (time(NULL));
 	if (id == PLAYER_LORD_GODALMING ) {
         if (round == 0) move = GALWAY;
