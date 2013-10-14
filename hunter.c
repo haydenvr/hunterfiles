@@ -26,9 +26,13 @@ void decideMove (HunterView gameState) {
 	} else if (id == PLAYER_DR_SEWARD) {
 
 	} else if (id == PLAYER_VAN_HELSING) {
-
+		if (round == 0) move = ATHENS;
+		else {
+			
+		}
 	} else if (id == PLAYER_MINA_HARKER) {
-
+		//if (round == 0) 
+		move = MADRID;
 	}
  
 	registerBestPlay(locations[move], "I Wanna Stake You Dracula <3" );
