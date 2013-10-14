@@ -11,7 +11,7 @@ foreach $line (<>) {
 	$line_to_print = '';
 	foreach $word (@words) {
 		if (defined $cities{$word}) {
-			$line_to_print .= "$cities{$word} ";
+			$line_to_print .= "$cities{$word} ($word) ";
 		} else {
 			$line_to_print .= "$word ";
 		}
