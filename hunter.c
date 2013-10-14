@@ -18,11 +18,10 @@ void decideMove (HunterView gameState) {
 	"ZU", "NS", "EC", "IS", "AO", "BB", "MS", "TS", "IO", "AS", 
 	"BS", "C?", "S?", "HI", "D1", "D2", "D3", "D4", "D5", "TP"
 	};
-	int round = getRound(gameState);
+	int round = getRound(gameState), amtLocs;
 	PlayerID id = getCurrentPlayer(gameState);
     LocationID move;
 	srand (time(NULL));
-	int amtLocs; 
 	if (id == PLAYER_LORD_GODALMING ) {
         if (round == 0) move = GALWAY;
 	} else if (id == PLAYER_DR_SEWARD) {
