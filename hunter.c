@@ -18,9 +18,10 @@ void decideMove (HunterView gameState) {
 	"ZU", "NS", "EC", "IS", "AO", "BB", "MS", "TS", "IO", "AS", 
 	"BS", "C?", "S?", "HI", "D1", "D2", "D3", "D4", "D5", "TP"
 	};
-	int round = getRound(gameState);
+	int round = getRound(gameState), amtLocs;
 	PlayerID id = getCurrentPlayer(gameState);
     LocationID move;
+	srand (time(NULL));
 	if (id == PLAYER_LORD_GODALMING ) {
         if (round == 0) move = GALWAY;
 	} else if (id == PLAYER_DR_SEWARD) {
@@ -30,21 +31,17 @@ void decideMove (HunterView gameState) {
 	} else if (id == PLAYER_VAN_HELSING) {
 		if (round == 0) move = ATHENS;
 		else {
-			srand (time(NULL));
-			int amtLocs; 
 			LocationID *adj = connectedLocations(gameState, &amtLocs, getLocation(gameState,id), id, round, 1, 0, 0);
 			move = adj[rand() % amtLocs];
 		}
 	} else if (id == PLAYER_MINA_HARKER) {
 		if (round == 0) move = MADRID;
 		else {
-			srand (time(NULL));
-			int amtLocs; 
 			LocationID *adj = connectedLocations(gameState, &amtLocs, getLocation(gameState,id), id, round, 1, 0, 1);
 			move = adj[rand() % amtLocs];
 		}
 	}
  
-	registerBestPlay(locations[move], "I Wanna Stake You Dracula <3" );
+	registerBestPlay(locations[move], "Penis <3" );
 }
 
