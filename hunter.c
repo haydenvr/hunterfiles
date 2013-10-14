@@ -23,7 +23,7 @@ void decideMove (HunterView gameState) {
     LocationID move;
 	srand (time(NULL));
 	if (id == PLAYER_LORD_GODALMING ) {
-        if (round == 0) move = GALWAY;
+        move = GALWAY;
 	} else if (id == PLAYER_DR_SEWARD) {
         if (round == 0) move = GALATZ;
         else if (getLocation(gameState, id) == GALATZ) move = KLAUSENBURG;
