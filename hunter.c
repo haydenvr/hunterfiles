@@ -27,7 +27,7 @@ void decideMove (HunterView gameState) {
 	} else if (id == PLAYER_DR_SEWARD) {
         if (round == 0) move = GALATZ;
         else if (getLocation(gameState, id) == GALATZ) move = KLAUSENBURG;
-        else if (getLocation(gameState, id) == KLAUSENBURG) move = GALATZ;
+        else move = GALATZ;
 	} else if (id == PLAYER_VAN_HELSING) {
 		if (round == 0) move = ATHENS;
 		else {
@@ -41,7 +41,7 @@ void decideMove (HunterView gameState) {
 			move = adj[rand() % amtLocs];
 		}
 	}
- 
+ 	printf("i'm going to %d\n",move);
 	registerBestPlay(locations[move], "Penis <3" );
 }
 

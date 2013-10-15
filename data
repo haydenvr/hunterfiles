@@ -1,71 +1,71 @@
-AL,Alicante
-AM,Amsterdam
-AT,Athens
-BA,Barcelona
-BI,Bari
-BE,Belgrade
-BR,Berlin
-BO,Bordeaux
-BU,Brussels
-BC,Bucharest
-BD,Budapest
-CA,Cadiz
-CG,Cagliari
-CD,Castle Dracula
-CF,Clermont Ferrand
-CO,Cologne
-CN,Constanta
-DU,Dublin
-ED,Edinburgh
-FL,Florence
-FR,Frankfurt
-GA,Galatz
-GW,Galway
-GE,Geneva
-GO,Genoa
-GR,Granada
-HA,Hamburg
-JM,St Joseph & St Mary's
-KL,Klausenburg
-LE,Le,Havre
-LI,Leipzig
-LS,Lisbon
-LV,Liverpool
-LO,London
-MA,Madrid
-MN,Manchester
-MR,Marseilles
-MI,Milan
-MU,Munich
-NA,Nantes
-NP,Naples
-NU,Nuremburg
-PA,Paris
-PL,Plymouth
-PR,Prague
-RO,Rome
-SA,Salonica
-SN,Santander
-SR,Saragossa
-SJ,Sarajevo
-SO,Sofia
-ST,Strasbourg
-SW,Swansea
-SZ,Szeged
-TO,Toulouse
-VA,Valona
-VR,Varna
-VE,Venice
-VI,Vienna
-ZA,Zagreb
-ZU,Zurich
-NS,North Sea
-EC,English Channel
-IS,Irish Sea
-AO,Atlantic Ocean
-BB,Bay of Biscay
-MS,Mediterranean Sea
-TS,Tyrrhenian Sea
-IO,Ionian Sea
-AS,Adriatic Sea
-BS,Black Sea
+AL,Alicante,0
+AM,Amsterdam,1
+AT,Athens,2
+BA,Barcelona,3
+BI,Bari,4
+BE,Belgrade,5
+BR,Berlin,6
+BO,Bordeaux,7
+BU,Brussels,8
+BC,Bucharest,9
+BD,Budapest,10
+CA,Cadiz,11
+CG,Cagliari,12
+CD,Castle Dracula,13
+CF,Clermont Ferrand,14
+CO,Cologne,15
+CN,Constanta,16
+DU,Dublin,17
+ED,Edinburgh,18
+FL,Florence,19
+FR,Frankfurt,20
+GA,Galatz,21
+GW,Galway,22
+GE,Geneva,23
+GO,Genoa,24
+GR,Granada,25
+HA,Hamburg,26
+JM,St Joseph & St Mary's,27
+KL,Klausenburg,28
+LE,Le Havre,29
+LI,Leipzig,30
+LS,Lisbon,31
+LV,Liverpool,32
+LO,London,33
+MA,Madrid,34
+MN,Manchester,35
+MR,Marseilles,36
+MI,Milan,37
+MU,Munich,38
+NA,Nantes,39
+NP,Naples,40
+NU,Nuremburg,41
+PA,Paris,42
+PL,Plymouth,43
+PR,Prague,44
+RO,Rome,45
+SA,Salonica,46
+SN,Santander,47
+SR,Saragossa,48
+SJ,Sarajevo,49
+SO,Sofia,50
+ST,Strasbourg,51
+SW,Swansea,52
+SZ,Szeged,53
+TO,Toulouse,54
+VA,Valona,55
+VR,Varna,56
+VE,Venice,57
+VI,Vienna,58
+ZA,Zagreb,59
+ZU,Zurich,60
+NS,North Sea,61
+EC,English Channel,62
+IS,Irish Sea,63
+AO,Atlantic Ocean,64
+BB,Bay of Biscay,65
+MS,Mediterranean Sea,66
+TS,Tyrrhenian Sea,67
+IO,Ionian Sea,68
+AS,Adriatic Sea,69
+BS,Black Sea,70
